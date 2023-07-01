@@ -3,95 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <title>asfa50's Website</title>
+    <link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
-    <table cellspacing="15">
-<tr>
-    <td>
-        <img src="avatar.avif" width="200" alt="Cat Picture">
-    </td>
-    <td>
-        <h1>Alexander Grin</h1>
-        <p><em>I am a student</em></p>
-        <p>I like <strong>long walks</strong>, going to the gym and BJJ</p>
-    </td>
-</tr>
+<div class="container">
+<div class="info">
+ <img src="avatar.avif" alt="Cat Picture" class="avatar">
 
-    </table>
-<hr>
+ <div class="info-text">
+ <h1>Alexander Grin</h1>
+ <p>I am a student</p>
+ <p>I like <strong>long walks</strong>, going to the gym and BJJ</p>
+ <h4>My social networks</h4>
+ <a href="https://instagram.com/alexander.grn" target="_blank">Instagram</a>
+|
+ <a href="https://t.me/asfa50" target="_blank">Telegram</a>
+</div>
+</div>
 
-<h2>My social networks</h2>
-<ul type="square">
-<li><a href="https://instagram.com/alexander.grn" target="_blank">Instagram</a></li>
-<li><a href="https://t.me/asfa50" target="_blank">Telegram</a></li>
-</ul>
 
-<hr>
 
+<div class="card bg-yellow">
 <h2>My hobbies</h2>
-<ol>
+<ol class="list">
 <li>Walks</li>
 <li>Going to the gym</li>
 <li>Sport : BJJ</li>
 <li>Running</li>
 <li>Travelling</li>
 </ol>
+</div>
 
-<hr>
 
+<div class="card bg-green">
 <h2>Work experience</h2>
-<table>
+<table class="table">
     <tr>
-         <th>Company</th>
-          <th>Job title</th>
-         <th>Year</th>
-         </tr>
-    <tr>
-        <td>Company name</td>
-        <td>Job title</td>
-        <td>Years of work</td>
+        <td>Cycle de Bude</td>
+        <td>Student</td>
+        <td>2019 - 2021</td>
     </tr>
     <tr>
-        <td>Second Company name</td>
-        <td>Second Job title</td>
-        <td>Years of work at second job</td>
+        <td>CEC Andre-Chavanne</td>
+        <td>Student</td>
+        <td>2022 - Now</td>
     </tr>
-   
-</table>
+   </table>
+</div>
 
-<hr>
-
+<div class="card bg-red">
 <h2>Youtube Courses</h2>
-<a href="youtube.html">Watch the list</a>
+<ul class="link-list">
+    <li>
+        <a href="https://youtube.com/alexander">Alexander's YouTube Channel</a>
+    </li>
+    <li>
+        <a href="https://youtube.com/alexander2">Alexander2's YouTube Channel</a>
+    </li>
+    <li>
+        <a href="https://youtube.com/alexander3">Alexander3's YouTube Channel</a>
+    </li>
+</ul>
+</div>
 
-<hr>
 
+<div class="contact">
 <h2>Get in contact with me</h2>
 
 <form action="/">
-    <label for="name">Your name:</label>
-    <input type="text" id="name"
-    placeholder="Enter your name...">
+    <div class="row">
+        <div class="form-group">
+            <label for="name">Your name:</label>
+            <input type="text" id="name"
+            placeholder="Enter your name...">
+    </div>
 
-<br>
+    <div class="form-group">
+        <label for="email">Your email:</label>
+        <input type="email" id="email"
+        placeholder="Enter your email...">
+    </div>
+</div>
 
-    <label for="email">Your email:</label>
-    <input type="email" id="email"
-    placeholder="Enter your email...">
-
-<br>
-
-
+<div class="form-group">
 <label for="text">Your message:</label>
-
-<br>
-
 <textarea name="" id="text" cols="15" rows="2"></textarea>
+</div>
 
-
-    <input type="submit" value="Contact">
+<input class="btn" type="submit" value="Contact">
 </form>
 
+<div class="position">
+    <div class="box">
+  
+    </div>
+  </div>
+</div>
 
+<div style="margin-bottom: 500px;"></div>
 </body>
 </html>
